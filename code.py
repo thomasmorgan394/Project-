@@ -1,7 +1,7 @@
 # This is my project 
 #import library
-import random
-#make a while loop
+import random 
+#make names
 name1 = input('Enter character name: ')
 agemin1 = int(input('Enter character age minimum: '))
 agemax1 = int(input('Enter character age maximum: '))
@@ -11,11 +11,14 @@ inches1 = random.randint(48,96)
 print('They are',inches1,'inches tall')
 favfloat1 = random.random()
 print('Their Favorite float is',favfloat1)
+favinteger1 = random.randint(1,100000000)
+print('Their favorite integer is', favinteger1)
 gen1 = random.randint(0,1)
 if gen1 == False: 
    print('They are a female')    
 else:
     print('They are a male')
+#repeat this code many times 
 name2 = input('Enter character name: ')
 agemin2 = int(input('Enter character age minimum: '))
 agemax2  = int(input('Enter character age maximum: '))
@@ -25,6 +28,8 @@ inches2 = random.randint(48,96)
 print('They are',inches2,'inches tall')
 favfloat2 = random.random()
 print('Their favorite float is ',favfloat2)
+favinteger2 = random.randint(1,100000000)
+print('Their favorite integer is', favinteger2)
 gen2 = random.randint(0,1)
 if gen2  == False: 
     print('They are a female')   
@@ -38,6 +43,8 @@ print('They are age',age3)
 inches3 = random.randint(48,96)
 favfloat3 = random.random()
 print('Their favorite float is ',favfloat3)
+favinteger3 = random.randint(1,100000000)
+print('Their favorite integer is', favinteger3)
 print('They are',inches3,'inches tall')
 gen3 = random.randint(0,1)
 if gen3 == False: 
@@ -53,6 +60,8 @@ inches4 = random.randint(48,96)
 print('They are',inches4,'inches tall') 
 favfloat4 = random.random()
 print('Their favorite float is ',favfloat4)
+favinteger4 = random.randint(1,100000000)
+print('Their favorite integer is', favinteger4)
 gen4 = random.randint(0,1)
 if gen4 == False: 
     print('They are a female')     
@@ -67,6 +76,8 @@ inches5 = random.randint(48,96)
 print('They are',inches5,'inches tall')
 favfloat5 = random.random()
 print('Their favorite float is ',favfloat5)
+favinteger5 = random.randint(1,100000000)
+print('Their favorite integer is', favinteger5)
 gen5 = random.randint(0,1)
 if gen5 == False: 
     print('They are a female')    
@@ -81,6 +92,8 @@ inches6 = random.randint(48,96)
 print('They are',inches6,'inches tall')
 favfloat6 = random.random()
 print('Their favorite float is ',favfloat6)
+favinteger6 = random.randint(1,100000000)
+print('Their favorite integer is', favinteger6)
 gen6 = random.randint(0,1)
 if gen6 == False: 
    print('They are a female')     
@@ -95,6 +108,8 @@ inches7 = random.randint(48,96)
 print('They are',inches7,'inches tall')
 favfloat7 = random.random()
 print('Their favorite float is ',favfloat7)
+favinteger7 = random.randint(1,100000000)
+print('Their favorite integer is', favinteger7)
 gen7 = random.randint(0,1)
 if gen7 == False: 
    print('They are a female')     
@@ -109,6 +124,8 @@ inches8 = random.randint(48,96)
 print('They are',inches8,'inches tall')
 favfloat8 = random.random()
 print('Their favorite float is ',favfloat8)
+favinteger8 = random.randint(1,100000000)
+print('Their favorite integer is', favinteger8)
 gen8 = random.randint(0,1)
 if gen8 == False: 
     print('They are a female') 
@@ -123,6 +140,8 @@ inches9 = random.randint(48,96)
 print('They are',inches9,'inches tall')
 favfloat9 = random.random()
 print('Their favorite float is ',favfloat9)
+favinteger9 = random.randint(1,100000000)
+print('Their favorite integer is', favinteger9)
 gen9 = random.randint(0,1)
 if gen9 == False: 
    print('They are a female')   
@@ -138,20 +157,22 @@ print('They are',inches10,'inches tall')
 favfloat10 = random.random()
 print('Their favorite float is ',favfloat10)
 gen10 = random.randint(0,1)
+favinteger10 = random.randint(1,100000000)
+print('Their favorite integer is', favinteger10)
 if gen10 == False: 
    print('They are a female')    
 else:
    print('They are a male')   
-ball1 = [name1,age1,inches1,favfloat1,gen1]
-ball2 = [name2,age2,inches2,favfloat2,gen2]
-ball3 = [name3,age3,inches3,favfloat3,gen3]
-ball4 = [name4,age4,inches4,favfloat4,gen4]
-ball5 = [name5,age5,inches5,favfloat5,gen5]
-ball6 = [name6,age6,inches6,favfloat6,gen6]
-ball7 = [name7,age7,inches7,favfloat7,gen7]
-ball8 = [name8,age8,inches8,favfloat8,gen8]
-ball9 = [name9,age9,inches9,favfloat9,gen9]
-ball10 = [name10,age10,inches10,favfloat10,gen10]
+ball1 = [name1,age1,inches1,favfloat1,favinteger1,gen1]
+ball2 = [name2,age2,inches2,favfloat2,favinteger2,gen2]
+ball3 = [name3,age3,inches3,favfloat3,favinteger3,gen3]
+ball4 = [name4,age4,inches4,favfloat4,favinteger4,gen4]
+ball5 = [name5,age5,inches5,favfloat5,favinteger5,gen5]
+ball6 = [name6,age6,inches6,favfloat6,favinteger6,gen6]
+ball7 = [name7,age7,inches7,favfloat7,favinteger7,gen7]
+ball8 = [name8,age8,inches8,favfloat8,favinteger8,gen8]
+ball9 = [name9,age9,inches9,favfloat9,favinteger9,gen9]
+ball10 = [name10,age10,inches10,favfloat10,favinteger10,gen10]
 print(ball1)
 print(ball2)
 print(ball3)
