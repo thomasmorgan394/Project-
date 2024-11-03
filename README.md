@@ -6,5 +6,5 @@ I needed to **import** and use a **library**, so I decided to use the **random**
 I needed to use a **for** and **while** loop, which I did not end up using, because I forgot that I needed to do it, and I didn't want to restart my code. 
 I finally needed to use a list to store all of my character's characteristics, and I did this at the end of my code. 
 My final output requirements was to print a summary of each NPC's attributes in a clear format, which I did. 
-# My code-
+### My code-
 
